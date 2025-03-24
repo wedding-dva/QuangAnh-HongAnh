@@ -5586,8 +5586,18 @@ transform: translate(-50%, -50%);
 .wish-box{overflow-y: auto;height: 557px;background-color: #fff;border: 5px solid #f23b43;color: #333;padding:0;}
 .wish-box::-webkit-scrollbar {width: 5px;background:#ccc;}
 .wish-box::-webkit-scrollbar-thumb {background-color: #999;-webkit-border-radius: 0;-moz-border-radius: 0;-o-border-radius: 0;-ms-border-radius: 0;border-radius: 0;}
-.wish-box .wish-box-item{padding: 12px;}
-.wish-box .wish-box-item p{color: #333;margin:.5rem 0;}
+.wish-box .wish-box-item{
+    padding: 12px;
+    border-radius: 0 0 0 15px;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    margin-left: 5px;
+
+}
+.wish-box .wish-box-item p{
+    color: #333;margin:.5rem 0;
+    font-size: 17px;
+}
 .wish-box .wish-box-item.bg{background-color: #fff0f1;}
 
 .donate-modal {
@@ -6067,6 +6077,12 @@ textarea#content{border: none;}
 	font-size: 15px!important;
 	color: black!important;
 	display: block!important;
+}
+.heart-icon {
+    width: 15px;  /* Điều chỉnh kích thước */
+    height: 16px;
+    margin-left: 5px;
+    vertical-align: middle; /* Căn chỉnh với chữ */
 }
 #wish-form .wishes-autocomplete-content ul li a:hover{background-color: #eee!important;}
 #wish-form .tooltip-custom {
