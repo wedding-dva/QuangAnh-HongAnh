@@ -47,7 +47,7 @@
 }
 @media only screen and (max-width: 500px) {
     #toast-container>.toast-success {
-        width: 70%!important;
-        margin-left : auto;
+        width: 70vw!important;
+        margin-left: auto;
     }
 }

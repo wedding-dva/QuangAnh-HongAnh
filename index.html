@@ -196,7 +196,7 @@
                                 	                                	
                                 	                                	<div class="parent-info"><span class="parent-title">Con bà:</span> <span class="parent-name">Đỗ Thị Minh Hồng  </span></div>
                                 	                                </div> -->
-                                                                <p class="al">Là một cô gái xinh đẹp và giỏi giang, đảm đang và tháo vát. Với nụ cười rạng rỡ như ánh nắng ban mai và ánh mắt tràn đầy yêu thương ...<a class="button-see" tabindex="0" data-trigger="focus" role="button" data-toggle="popover" data-placement="bottom" data-content="Với nụ cười rạng rỡ như ánh nắng ban mai và ánh mắt tràn đầy yêu thương, cô ấy không chỉ là một nửa hoàn hảo của chú rể mà còn là người mang đến sự ấm áp, dịu dàng và hạnh phúc cho mọi người xung quanh." style="font-size:14px;cursor: pointer">Xem thêm<i class="bi bi-arrow-down-short"></i></a></p>
+                                                                <p class="al">Là cô gái luôn suy nghĩ sâu sắc, hay lo xa, nhưng nhờ sự thấu hiểu và quan tâm của chú rể, cô đã tin tưởng ... <a class="button-see" tabindex="0" data-trigger="focus" role="button" data-toggle="popover" data-placement="bottom" data-content="là cô gái luôn suy nghĩ sâu sắc, hay lo xa, nhưng nhờ sự thấu hiểu và quan tâm của chú rể, cô đã tin tưởng đặt cược “cả cuộc đời” vào chàng trai này. Và có lẽ cũng nhờ niềm tin ấy mà hai người mới có được ngày hôm nay." style="font-size:14px;cursor: pointer">Xem thêm<i class="bi bi-arrow-down-short"></i></a></p>
                             </div>
                         </div>
                     </div>
@@ -691,6 +691,11 @@
                                                         </div>
                                                 `;
                                                 wishesList.appendChild(wishDiv);
+
+                                                dataWishes.push({
+                                                    name: `${wish.name}</strong> <img class="heart-icon" src="./common/imgs/event/heart.png">`,
+                                                    content: `${wish.content}`
+                                                });
                                             });
                                         } catch (error) {
                                             console.error("Lỗi:", error);
