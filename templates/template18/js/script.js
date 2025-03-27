@@ -70,10 +70,10 @@
         if ($("#wish-form").length) {
             $("#wish-form").validate({
                 rules: {
-                    name: {
-                        required: true,
-                        minlength: 5
-                    },
+                    // name: {
+                    //     required: true,
+                    //     minlength: 5
+                    // },
                     content: {
                         required: true,
                         minlength: 10
@@ -85,10 +85,10 @@
                 },
     
                 messages: {
-                    name: {
-                        required: 'Vui lòng nhập tên của bạn.',
-                        minlength: 'Tên phải lớn hơn 5 ký tự.',
-                    },
+                    // name: {
+                    //     required: 'Vui lòng nhập tên của bạn.',
+                    //     minlength: 'Tên phải lớn hơn 5 ký tự.',
+                    // },
                     content: {
                         required: 'Vui lòng nhập lời chúc.',
                         minlength: 'Lời chúc phải lớn hơn 10 ký tự.',
